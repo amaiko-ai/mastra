@@ -1,5 +1,16 @@
 # @mastra/core
 
+## 1.0.0-beta.6
+
+### Patch Changes
+
+- Adds bidirectional integration with otel tracing via a new @mastra/otel-bridge package. ([#10482](https://github.com/mastra-ai/mastra/pull/10482))
+
+- Fix network agent not getting `text-delta` from subAgent when `.stream` is used ([#10533](https://github.com/mastra-ai/mastra/pull/10533))
+
+- Updated dependencies [[`db70a48`](https://github.com/mastra-ai/mastra/commit/db70a48aeeeeb8e5f92007e8ede52c364ce15287)]:
+  - @mastra/observability@1.0.0-beta.2
+
 ## 1.0.0-beta.5
 
 ### Patch Changes
